@@ -1,1 +1,2 @@
 nuplanqa_train.json filter=lfs diff=lfs merge=lfs -text
+nuplan_metadata.pkl filter=lfs diff=lfs merge=lfs -text
