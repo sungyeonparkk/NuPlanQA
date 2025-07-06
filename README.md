@@ -69,7 +69,7 @@ For detailed information about each sample, please refer to the accompanying **m
  'split': 'test',
  'prev': 'e10d6158220b529e'}
 ```
-</details><br>
+</details>
 
   | Split           | Download | # Samples |
   |-----------------|----------|-----------|
@@ -81,7 +81,6 @@ For detailed information about each sample, please refer to the accompanying **m
 ### 3. Download Metadata
 You can download the preprocessed metadata [here](https://drive.google.com/file/d/1fVmHsg3Nr3dde5vq3uoiC9obWrJ2vh-b/view?usp=sharing).  
 It includes sample-level information such as camera intrinsics/extrinsics, image paths, and prev/next tokens for sequence construction.
-
 <details>
 <summary>Click to see example of metadata</summary>
 
@@ -298,7 +297,7 @@ It consists of 'cams', 'ego_pose', 'frame_idx', 'timestamp', 'scene_token', 'sce
  'lidar2ego_translation': [0, 0, 0],
  'lidar2ego_rotation': [1.0, 0.0, 0.0, 0.0]}
 ```
-</details><br>
+</details>
 
 You will need to install `nuplan-devkit` to open metadata file. Follow [official instruction](https://nuplan-devkit.readthedocs.io/en/latest/installation.html) to install.
 
