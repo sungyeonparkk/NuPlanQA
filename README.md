@@ -34,7 +34,14 @@ This repository have three sections:
 
 
 ### 1. Download Raw Multi-view Images
-Download the raw data from the official [nuPlan website](https://www.nuscenes.org/nuplan#download). You should download *nuPlan v1.1 Dataset > nuPlan Train Camera 32~42 / Val Camera 0~1.* 
+Download the raw image data from the official [nuPlan website](https://www.nuscenes.org/nuplan#download).  
+You should download:
+
+- *nuPlan v1.1 Dataset > nuPlan Train Camera 32–42*
+- *nuPlan v1.1 Dataset > nuPlan Val Camera 0–1*
+
+We recommend unzipping each subset into its own directory, following the structure: `part_{num}/*.jpg`.
+
 
 ### 2. Download QA Dataset
 You can download each split of the dataset using the links below. The data is available via either **Google Drive** or **Git LFS** in [this directory](https://github.com/sungyeonparkk/NuPlanQA/tree/main/data).
