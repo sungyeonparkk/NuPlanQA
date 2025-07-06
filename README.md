@@ -79,7 +79,9 @@ For detailed information about each sample, please refer to the accompanying **m
   | Eval-val | - | 1,750 |
 
 ### 3. Download Metadata
-You can download preprocessed metadata [here](https://drive.google.com/file/d/1fVmHsg3Nr3dde5vq3uoiC9obWrJ2vh-b/view?usp=sharing). It inlcudes related information per frame such as camera extrinsics/intrinsics, image path, prev/next tokens. 
+You can download the preprocessed metadata [here](https://drive.google.com/file/d/1fVmHsg3Nr3dde5vq3uoiC9obWrJ2vh-b/view?usp=sharing).  
+It includes sample-level information such as camera intrinsics/extrinsics, image paths, and prev/next tokens for sequence construction.
+
 <details>
 <summary>Click to see example of metadata</summary>
 
